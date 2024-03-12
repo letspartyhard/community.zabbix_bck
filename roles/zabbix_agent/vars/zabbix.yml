@@ -18,8 +18,6 @@ sign_keys:
     trusty:
       sign_key: E709712C
   "54":
-    bookworm:
-      sign_key: E709712C
     bullseye:
       sign_key: E709712C
     buster:
