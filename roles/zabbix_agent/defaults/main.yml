@@ -2,12 +2,12 @@
 # defaults file for zabbix_agent
 
 zabbix_agent2: false
-zabbix_agent_version: 6.5
+zabbix_agent_version: 6.0
 zabbix_version: "{{ zabbix_agent_version }}"
 zabbix_version_patch: 0
 zabbix_repo: zabbix
 zabbix_agent_package_remove: false
-zabbix_agent_package: "zabbix-agent2=1:6.0.14+dfsg-1+b1"
+zabbix_agent_package: zabbix-agent
 zabbix_sender_package: zabbix-sender
 zabbix_get_package: zabbix-get
 zabbix_agent_package_state: present
