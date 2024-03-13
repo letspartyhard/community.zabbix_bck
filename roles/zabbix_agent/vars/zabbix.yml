@@ -1,6 +1,6 @@
 ---
 sign_keys:
-  "60":
+  "64":
     bookworm:
       sign_key: E709712C
     bullseye:
